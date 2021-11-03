@@ -1,32 +1,24 @@
-import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { About } from "./components/about";
-import { Gallery } from "./components/gallery";
-import { Footer } from "./components/Footer";
-import JsonData from "./data/data.json";
+import { Footer } from "./parts/Footer";
+
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import React from 'react';
+import React from "react";
+import Routes from "./components/Routes";
+import { BrowserRouter as Router } from "react-router-dom";
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-  
   return (
-    <div>
+    <Router>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <Gallery data={landingPageData.Gallery}/>
+      <Routes></Routes>
       <Footer></Footer>
-    </div>
+    </Router>
   );
 };
 
