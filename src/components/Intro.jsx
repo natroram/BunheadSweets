@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <header id="header">
+    <div id="intro">
       <div className="intro">
         <div className="overlay">
           <div className="container">
@@ -15,10 +15,7 @@ const Intro = () => {
                   sed dapibus leo nec ornare diam sed commodo nibh ante
                   facilisis bibendum.
                 </p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
+                <a href="#about" className="btn btn-custom btn-lg page-scroll">
                   Learn More
                 </a>{" "}
               </div>
@@ -26,7 +23,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

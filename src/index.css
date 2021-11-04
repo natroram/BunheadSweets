@@ -1,13 +1,27 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* COMPONENTS */
+@import url(./assets/css/components/product.css);
+@import url(./assets/css/components/intro.css);
+@import url(./assets/css/components/member.css);
+
+/* PAGES */
+
+@import url(./assets/css/pages/home.css);
+@import url(./assets/css/pages/shop.css);
+@import url(./assets/css/pages/ourTeam.css);
+@import url(./assets/css/pages/contactUs.css);
+@import url(./assets/css/pages/profile.css);
+@import url(./assets/css/pages/cart.css);

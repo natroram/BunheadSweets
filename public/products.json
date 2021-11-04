@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "./img/cake.jpg",
+        "name": "Torta de vainilla",
+        "category": "Torta",
+        "price": 10,
+        "description": "Torta con cake de vainilla humeda y cubierta de chocolate blanco." 
+    },
+    {
+        "id": 2,
+        "image": "./img/cake.jpg",
+        "name": "Torta de Chocolate",
+        "category": "Torta",
+        "price": 10,
+        "description": "Torta con cake de chocolate y cubierta de chocolate" 
+    },
+    {
+        "id": 3,
+        "image": "./img/cake.jpg",
+        "name": "Torta de Frutilla",
+        "category": "Torta",
+        "price": 10,
+        "description": "Torta con cake de vainilla humeda y cubierta de chocolate blanco y frutillas." 
+    },
+    {
+        "id": 4,
+        "image": "./img/cake.jpg",
+        "name": "Galleta de chocolate",
+        "category": "Galleta",
+        "price": 1,
+        "description": "Galeta con chispas de chocolate" 
+    }
+]
