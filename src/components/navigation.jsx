@@ -23,7 +23,7 @@ export const Navigation = (props) => {
         </div>
 
         <div
-          className="collapse navbar-collapse"
+          className="navbar-collapse collapse"
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">

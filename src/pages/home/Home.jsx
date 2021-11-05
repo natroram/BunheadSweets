@@ -12,11 +12,11 @@ const Home = () => {
   }, []);
 
   return (
-    <React.Fragment>
+    <div id="home">
       <Intro data={landingPageData.Header}></Intro>
       <About data={landingPageData.About} />
       <Gallery data={landingPageData.Gallery} />
-    </React.Fragment>
+    </div>
   );
 };
 

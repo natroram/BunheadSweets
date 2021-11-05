@@ -71,6 +71,11 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+div#root {
+  width: 100vw;
+}
+
 /* Navigation */
 #menu {
   padding: 15px;
